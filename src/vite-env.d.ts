@@ -14,7 +14,14 @@ type keypadProps = {
   resetText: () => void
 }
 type ringProps = {
-  size: number
+  size: string
   img: string
   color: string
+}
+type resultProps = {
+  gameResult: string
+  userChoice: { img: string; color: string }
+  loading: boolean
+  houseChoice: { img: string; color: string }
+  endGame: () => void
 }

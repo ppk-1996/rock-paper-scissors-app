@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/ppk-1996/calculator-app)
+- Solution URL: [Github](https://github.com/ppk-1996/rock-paper-scissors-app)
 - Live Site URL: [Add live site URL here](https://calculator-app-lyart.vercel.app/)
 
 ## My process

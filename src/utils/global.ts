@@ -1,5 +1,3 @@
-export const BG_COLOR = 'linear-gradient(hsl(214, 47%, 23%),hsl(237, 49%, 15%))'
-
 export const SCISSORS_COLOR =
   'linear-gradient(45deg,hsl(39, 89%, 49%),hsl(40, 84%, 53%))'
 

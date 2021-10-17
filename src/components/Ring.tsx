@@ -3,7 +3,7 @@ const Ring = ({ size, img, color }: ringProps) => {
     <div
       style={{
         width: size,
-        height: size,
+        aspectRatio: '1',
         backgroundImage: color,
         boxShadow: '-2px -6px 2px 0px rgba(0, 0, 0, 0.3) inset',
       }}

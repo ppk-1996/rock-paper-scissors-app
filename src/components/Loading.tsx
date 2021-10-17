@@ -1,6 +1,6 @@
 import { PAPER_COLOR, ROCK_COLOR, SCISSORS_COLOR } from '../utils/global'
 import './Loading.css'
-const Loading = ({ size }: { size: number }) => {
+const Loading = ({ size }: { size: string }) => {
   return (
     <div
       style={{

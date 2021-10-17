@@ -25,15 +25,3 @@
     );
   }
 }
-.loading-dots > div {
-  -webkit-animation: 0.5s linear 0s infinite alternate dots;
-  animation: 0.5s linear 0s infinite alternate dots;
-}
-@keyframes dots {
-  from {
-  }
-  50% {
-  }
-  to {
-  }
-}
