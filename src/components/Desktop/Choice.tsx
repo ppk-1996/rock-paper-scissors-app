@@ -6,11 +6,11 @@ import triangle from '../../assets/bg-triangle.svg'
 import { PAPER_COLOR, ROCK_COLOR, SCISSORS_COLOR } from '../../utils/global'
 
 const Choice = ({ startGame }: { startGame: (choice: number) => void }) => {
-  const ringSize = '180px'
+  const ringSize = '200px'
   return (
     <div className="hidden sm:block">
       <div className="grid grid-cols-4 place-items-center w-max relative ">
-        <img src={triangle} className="absolute bottom-30" />
+        <img src={triangle} className="absolute bottom-0" width="400" />
 
         <div
           className={`col-span-2 mx-7 relative  cursor-pointer rounded-full`}

@@ -16,13 +16,15 @@
 ### The challenge
 
 Users should be able to:
-- Use the calculator to do basic arithmetic.
-- Change the calculator to three different themes
-- Themes will be remembered for next usage if user check the default theme checkbox
+- play Rock-Paper-Scissors game
+- view responsive design based on their screen size
+- keep track of the score
+- get +1 score for winning, -1 for losing and 0.5 for tie game
 
 ### Screenshot
 
-![](./design/screenshot.png)
+![](./design/iphoneX.png)
+![](./design/ipad.png)
 
 ### Links
 
@@ -31,31 +33,28 @@ Users should be able to:
 
 ## My process
 
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Regex
 - [React](https://reactjs.org/) - JS library
 - [TypeScript](https://www.typescriptlang.org/) - JS with syntax for types
 - [Tailwind](https://tailwindcss.com/) - CSS framework
+- [React Modal](https://www.npmjs.com/package/react-modal) - React Modal
 
 ### What I learned
 
-- Event listener can be be used with useEffect and useCallback in React to achieve smooth keyboard experience for the calculator.
-- Tailwind can utilize CSS variables to create different themes easily
-- direction rtl in CSS
-
+- mobile and desktop have different arrangment in html elements so I use different components for each screen.
 
 ### Continued development
-All done I think XD
+- Bonus part
+- Rules modal is not responsive if the screen size is changed while the modal is open.
 
 ### Useful resources
 
-- [StackOverFlow Answer by Dji](https://stackoverflow.com/a/39874526) - This helped the calculator screen to handle overflow text properly.
-- [Theming Tailwind with CSS Variables](https://www.youtube.com/watch?v=MAtaT8BZEAo&t=428s)
-- [StackOverFlow Answer by Shubham Khatri](https://stackoverflow.com/a/55566585) - Keydown listener utilizing useEffect and useCallback.
+- Google
 
 ## Author
 

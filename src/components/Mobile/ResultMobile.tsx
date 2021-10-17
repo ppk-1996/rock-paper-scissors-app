@@ -8,7 +8,7 @@ const ResultMobile = ({
   houseChoice,
   endGame,
 }: resultProps) => {
-  const ringSize = '200px'
+  const ringSize = '120px'
   return (
     <div className="w-full flex flex-col justify-evenly h-full sm:hidden">
       <div className="flex w-full justify-between">
@@ -47,15 +47,15 @@ const ResultMobile = ({
         </div>
       </div>
       {loading ? (
-        <div style={{ height: 130 }}></div>
+        <div style={{ height: 120 }}></div>
       ) : (
-        <div className="grid place-items-center" style={{ height: 130 }}>
-          <h2 style={{ fontSize: '4rem' }}>{gameResult}</h2>
+        <div className="grid place-items-center" style={{ height: 120 }}>
+          <h2 style={{ fontSize: '2em' }}>{gameResult}</h2>
 
           <button
             onClick={endGame}
             type="button"
-            className="rounded-lg bg-gray-200 text-skin-dark py-3 px-16 tracking-widest text-lg"
+            className="rounded-lg bg-gray-200 text-skin-dark py-3 px-6 tracking-widest text-lg"
           >
             PLAY AGAIN
           </button>
