@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/ppk-1996/rock-paper-scissors-app)
-- Live Site URL: [Add live site URL here](https://calculator-app-lyart.vercel.app/)
+- Live Site URL: [ROCK PAPER SCISSORS](https://rock-paper-scissors-app-eight.vercel.app/)
 
 ## My process
 
